@@ -1,0 +1,43 @@
+/* 전체 배경과 글자 간격 */
+body {
+  background-color: Ivory;    /* 부드러운 아이보리 배경 */
+  margin: 50px;               /* 화면 전체 바깥 여백 */
+  line-height: 1.8;           /* 문장 사이 간격 */
+}
+
+/* 짱구 강조 (클래스 선택자) */
+.zzang {
+  background-color: Red;      /* 짱구의 빨간 티셔츠 */
+  color: White;               /* 글씨는 흰색 */
+  padding: 2px 8px;           /* 글자 주변 안쪽 여백 */
+  border-radius: 5px;         /* 모서리 둥글게 */
+}
+
+/* 메인 제목 */
+h1.zzang {
+  display: block;             /* 한 줄을 다 차지하도록 */
+  width: fit-content;         /* 글자 길이에 딱 맞게 */
+  padding: 10px 20px;         /* 박스 내부 공간 확보 */
+  margin-bottom: 20px;        /* 아래 문단과 간격 띄우기 */
+  font-size: 30px;
+}
+
+/* 소제목 (가족 관계) */
+h2 {
+  color: DarkGoldenRod;       /* 진한 황금색 */
+  border-bottom: 4px solid Yellow; /* 아래쪽에 노란색 테두리 */
+  padding-bottom: 5px;        /* 테두리와 글자 사이 간격 */
+  margin-top: 40px;           /* 위쪽 내용과 충분히 거리 두기 */
+}
+
+/* 링크 스타일 */
+a {
+  color: Blue;
+  text-decoration: none;      /* 밑줄 제거 */
+  background-color: LightYellow; /* 링크 배경에 살짝 노란빛 */
+  padding: 3px 5px;
+}
+
+a:hover {
+  background-color: Yellow;   /* 마우스 올리면 더 진한 노란색 */
+}
